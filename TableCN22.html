@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+</head>
+
+<body>
+    <style type="text/css">
+
+        .paquetTable {
+            overflow: auto;
+            width: 170mm;
+            height: 137mm;
+            display: block;
+            border: 1px dashed black;
+        }
+
+        .paquetTable table {
+            position: absolute;
+        }
+
+        #from {
+            width: 76mm;
+            left: 6mm;
+            top: 2mm;
+            border-collapse: collapse;
+        }
+
+        #cn22 {
+            height: 89mm;
+            width: 75mm;
+            left: 6mm;
+            top: 43mm;
+            border-collapse: collapse;
+        }
+        #cn22 td, #cn22 tr {
+            border: 1px solid black;
+            vertical-align: top;
+        }
+
+        #to {
+            width: 76mm;
+            left: 90mm;
+            top: 52mm;
+            border-collapse: collapse;
+        }
+
+        #to tr,
+        #from tr {
+            height: 9mm;
+            border-bottom: 1px solid black;
+        }
+
+        #cn22tr1 {
+            height: 6mm;
+            border: none;
+        }
+        #cn22tr1 td,
+        #cn22tr2 td{
+            border-right: transparent !important;
+            border-left: transparent !important;
+        }
+
+        #cn22tr1 td:nth-child(1),
+        #cn22tr1 td:nth-child(3){
+            width: 10mm;
+            font-size: 1.5mm;
+        }
+
+        #cn22tr1 td:nth-child(2){
+            width: 10mm;
+        }
+
+        #cn22tr1 td:last-child{
+            width: 12mm;
+        }
+
+        #cn22tr2 {
+            height: 9mm;
+        }
+
+        #cn22tr3,
+        #cn22tr4 {
+            height: 4mm;
+        }
+
+        #cn22tr5 {
+            height: 9mm;
+        }
+
+        #cn22tr6 {
+            height: 15mm;
+        }
+
+        #cn22tr7 {
+            height: 7mm;
+        }
+        .tightTd {
+            width: 3mm;
+            border-right: transparent !important;
+        }
+        .wideTd {
+            border-left: transparent !important;
+        }
+
+        #poidsTable {
+            top: 127mm;
+            left: 90mm;
+            border-collapse: collapse;
+        }
+        #poidsTable tr {
+            border-top: 1px solid black;
+        }
+
+        #petitPaquet {
+            width: 75mm;
+            left: 90mm;
+            top: 5mm;
+            border-collapse: collapse;
+        }
+
+        #petitPaquet tr {
+            height: 9mm;
+            padding: 2px;
+        }
+        #petitPaquet tr:last-child td:nth-child(1),
+        #petitPaquet tr:last-child td:nth-child(2) {
+            border: 1px solid black;
+            width: 8mm;
+            padding-left: 4mm;
+            padding-top: 0px;
+        }
+        #petitPaquet tr:last-child td:nth-child(2) {
+            width: 20mm;
+        }
+        #petitPaquet tr:first-child td:nth-child(1) {
+            font-size: mm;
+        }
+
+        #cn22tr3 td{
+            padding: 0;
+        }
+    </style>
+
+    <div class="paquetTable">
+        <table id="from" cellpadding="1">
+            <tr class="fromtr"> <td>[from1]</td> </tr>
+            <tr class="fromtr"> <td>[from2]</td> </tr>
+            <tr class="fromtr"> <td>[from3]</td> </tr>
+            <tr class="fromtr"> <td>[from4]</td> </tr>
+        </table>
+        <table id="cn22" class="tabel2" cellpadding="1">
+            <tr id="cn22tr1" class="cn22tr">
+                <td colspan="2"> ТАМОЖЕННАЯ<br> ДЕКЛАРАЦИЯ<br> DECLARATION<br> ENDUANE</td>
+                <td></td>
+                <td colspan="2">Может быть вскрыто в служебном порядке<br>Peut être ouvert d’office</td>
+                <td>CN22</td>
+            </tr>
+            <tr id="cn22tr2" class="cn22tr">
+                <td colspan="2" style="font-size: 2mm;">Почтовая администрация<br>Administration des postes</td>
+                <td></td>
+                <td></td>
+                <td colspan="2" style="font-size: 2mm; padding-left: 10mm;"><small>Внимание!<br>Important!<br>См. инструкции на<br>обратной стороне<br>Voir instructions au verso</small></td>
+            </tr>
+            <tr id="cn22tr3" class="cn22tr">
+                <td class="tightTd" style="font-size: 3mm;"><b>✓</b></td>
+                <td class="tightTd" rowspan="2" style="font-size: 2mm; padding-left: 1mm;">Подарок<br>Cadeau<br>Документы<br>Doceuments</td>
+                <td class="wideTd" rowspan="2"></td>
+                <td class="tightTd"></td>
+                <td colspan="2" rowspan="2" style="font-size: 1.9mm; padding-left: 0.7mm;">Коммерческий образец<br>Echatillon commercial<br><small>Прочее Зачеркнуть клеточку (-и)</small><br><small>Autre Cocher la ou les cases correspondantes</small></td>
+            </tr>
+            <tr id="cn22tr4" class="cn22tr">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="cn22tr5" class="cn22tr">
+                <td colspan="4" style="font-size: 2.2mm; padding-left: 1mm;">Количество и подробное описание<br>вложения (1)<br>Quantite et description détailée<br>du contenu (1)</td>
+                <td style="font-size: 2mm;width: 9mm;">Вес<br>(в кг) (2)<br>Poids<br>(en kg) (2)</td>
+                <td style="font-size: 2mm;">Стоимость (3)<br>Valeur (3)</td>
+            </tr>
+            <tr id="cn22tr6" class="cn22tr" style="font-size: 3mm;">
+                <td style="border-right: transparent !important;">[itemCount]</td>
+                <td colspan="3" style="border-left: transparent !important;">[itemName]</td>
+                <td></td>
+                <td>[itemCost]</td>
+            </tr>
+            <tr id="cn22tr7" class="cn22tr">
+                <td colspan="4" style="font-size: 2.2mm; padding-left: 1mm;"><b><i>Только для коммерческих отправлений<br>Pour les envois commerciaux seulement</i></b></td>
+                <td rowspan="2" style="font-size: 2mm;">Общий<br>вес<br>(в кг) (6)<br>Poids total<br>(en kg) (6)</td>
+                <td rowspan="2" style="font-size: 2mm;">Общая стоимость (7)<br>Valeuf totale (7)<p style="font-size: 3mm;">1,0</p></td>
+            </tr>
+            <tr id="cn22tr8" class="cn22tr" style="height: 12mm;">
+                <td colspan="4" style="font-size: 2mm; padding-left: 1mm;">Код ТНВЭД (4) и страна происхождения товаров (если из вестно) (5)<br>№ tarifaire du SH (4) et pais d’origine des marchandises (si connus) (5)</td>
+            </tr>
+            <tr id="cn22tr9" class="cn22tr">
+                <td colspan="6" style="font-size: 2mm; padding-left: 1mm;">Я, нижеподписавшийся (фамилия и адрес указаны на отправлении), подтверждаю, что приведенные в настоящей таможенной декларации сведения являются достоверными, и что в этом отправлении не содержится никаких опасных или запрещенных законодательством или почтовой или таможенной регламентацией предметов Дата и подпись отправителя (8)<br/>Je, soussigné dont le nom et l’adresse figurent sur l’envoi, certifie que les renseignements donnés dans la présente déclaration sont exacts et que cet envoi ne contient aucun objet dangereux   ou interdit par la législation ou la réglementation postale ou douanière Date et signature de l’expéditeur (8)</td>
+            </tr>
+        </table>
+        <table id="petitPaquet">
+            <tr>
+                <td colspan="2" style="text-transform: uppercase;"><b>Petit Paquet</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Т.Р.___ руб.___ коп.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>R  </td>
+                <td>№      </td>
+                <td></td>
+            </tr>
+        </table>
+        <table id="to" cellpadding="1">
+            <tr id="totr1" class="totr">
+                <td>[to1]</td>
+            </tr>
+            <tr id="totr2" class="totr">
+                <td>[to2]</td>
+            </tr>
+            <tr id="totr3" class="totr">
+                <td>[to3]</td>
+            </tr>
+            <tr id="totr4" class="totr">
+                <td>[to4]</td>
+            </tr>
+            <tr id="totr5" class="totr">
+                <td>[to5]</td>
+            </tr>
+            <tr id="totr6" class="totr">
+                <td></td>
+            </tr>
+            <tr id="totr7" class="totr">
+                <td>[to6]</td>
+            </tr>
+        </table>
+        <table id="poidsTable" class="poidsTable">
+            <tr>
+                <td><b>Вес (Poids)</b></td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
